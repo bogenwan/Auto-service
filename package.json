@@ -1,0 +1,38 @@
+{
+  "name": "auto-service",
+  "version": "1.0.0",
+  "description": "auto service search app - this app will help you search near by auto service shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogenwan/Auto-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogenwan/Auto-service/issues"
+  },
+  "homepage": "https://github.com/bogenwan/Auto-service#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.5",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "underscore": "^1.8.3",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+  "dev": "webpack -d --watch",
+  "build" : "webpack -p"
+  }
+
+}
