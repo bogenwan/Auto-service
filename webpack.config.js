@@ -9,13 +9,7 @@ var config = {
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
-  }
-};
-
-module.exports = config;
-
-var config = {
-
+  },
   module : {
     loaders : [
       {
@@ -25,4 +19,6 @@ var config = {
       }
     ]
   }
-}
+};
+
+module.exports = config;
